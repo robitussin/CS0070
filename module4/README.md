@@ -42,12 +42,12 @@ This project is structured specifically as a teaching tool for beginner and inte
 
 2. **Compile the Code**
    ```bash
-   javac com/mycompany/ordersystemoop/OrderSystemOOP.java
+   javac com/mycompany/ordersystemoop/OrderSystemOOPv2.java
    ```
 
 3. **Run the Application**
    ```bash
-   java com.mycompany.ordersystemoop.OrderSystemOOP
+   java com.mycompany.ordersystemoop.OrderSystemOOPv2
    ```
 
 ---
@@ -62,7 +62,7 @@ src/
     ├── FoodItem.java        // Child class representing food items
     ├── DrinkItem.java       // Child class representing drink items
     ├── Order.java           // Handles order items and total calculation
-    └── OrderSystemOOP.java  // Main execution class (Driver)
+    └── OrderSystemOOPv2.java  // Main execution class (Driver)
 ```
 
 ---
