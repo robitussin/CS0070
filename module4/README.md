@@ -1,10 +1,10 @@
-# Java OOP Order System Demo 🍔🥤
+# Java OOP Order System Demo 
 
 A beginner-friendly Java console application designed to teach and demonstrate the core concepts of **Object-Oriented Programming (OOP)**: **Abstraction**, **Inheritance**, **Polymorphism**, and **Interfaces**.
 
 ---
 
-## 📚 Educational Concepts Demonstrated
+##  Educational Concepts Demonstrated
 
 This project is structured specifically as a teaching tool for beginner and intermediate Java learners.
 
@@ -17,7 +17,7 @@ This project is structured specifically as a teaching tool for beginner and inte
 
 ---
 
-## 🛠️ Features
+##  Features
 
 - **Interactive Console Menu:** Select items from an interactive prompt.
 - **Dynamic Calculation:** Automatically calculates total cost and applies a 10% discount upon checkout.
@@ -25,7 +25,7 @@ This project is structured specifically as a teaching tool for beginner and inte
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -52,7 +52,7 @@ This project is structured specifically as a teaching tool for beginner and inte
 
 ---
 
-## 💻 Code Structure Overview
+## Code Structure Overview
 
 ```text
 src/
