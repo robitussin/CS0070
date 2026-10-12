@@ -1,4 +1,4 @@
-```
+
 ## 📂 Folder Structure
 
 ```
@@ -33,6 +33,5 @@
 * **Common Causes:** Typo in file path, missing configuration files, or attempting to read a file that hasn't been created yet.
 * **Example Use Case:** Loading a configuration file or reading a user-submitted document.
 
----
 
 
