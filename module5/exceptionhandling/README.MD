@@ -1,24 +1,3 @@
-
-
----
-
-```markdown
-# Java Exceptions: Checked vs. Unchecked
-
-Welcome to this repository! This project provides a clear, practical guide and code examples to help developers understand the difference between **Checked** and **Unchecked** exceptions in the Java programming language.
-
----
-
-## 📂 Repository Structure
-
-```text
-├── checked-exceptions/      # Examples and handling of compile-time exceptions
-└── unchecked-exceptions/    # Examples and handling of runtime exceptions
-
-```
-
----
-
 ## Quick Comparison
 
 | Feature | Checked Exceptions | Unchecked Exceptions |
