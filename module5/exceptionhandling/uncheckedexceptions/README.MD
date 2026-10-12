@@ -15,17 +15,25 @@
 ---
 
 ## 📁 arithmetic_exception
-ArithmeticException is thrown when an exceptional arithmetic condition has occurred.
+`ArithmeticException` is thrown when an exceptional arithmetic condition has occurred.
 
 * **Common Causes:** Dividing an integer by zero (/ 0) or performing an invalid modulo operation.
 
 * **Example Use Case:** Calculating ratios or percentages where a dynamic denominator evaluates to zero.
 
-## 📁arrayindexoutofbounds_exception
-Covers scenarios where an array is accessed with an illegal index—either a negative index or an index greater than or equal to the array's length.
+## 📁 arrayindexoutofbounds_exception
+`ArrayIndexOutOfBoundsException` is thrown to indicate that an array has been accessed with an illegal index.
+
+* **Common Causes:** Using a negative index or an index greater than or equal to the array's size (length).
+
+* **Example Use Case:** Iterating past the bounds of an array due to an incorrect loop condition (<= instead of <).
 
 ## 📁 illegalargument_exception
-Demonstrates exceptions thrown to indicate that a method has been passed an inappropriate, illegal, or out-of-range argument.
+`IllegalArgumentException` is thrown to indicate that a method has been passed an inappropriate, illegal, or out-of-range argument.
+
+* **Common Causes:** Passing negative values where positive ones are expected, or supplying conflicting configuration parameters.
+
+* **Example Use Case:** Setting a user's age or percentage value to an impossible negative number.
 
 ## 📁 multiplecatchblocks
 Illustrates how to structure a single `try` block with multiple `catch` blocks to handle various specific exception types sequentially.
