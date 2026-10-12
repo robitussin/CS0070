@@ -36,10 +36,22 @@
 * **Example Use Case:** Setting a user's age or percentage value to an impossible negative number.
 
 ## 📁 multiplecatchblocks
-Illustrates how to structure a single `try` block with multiple `catch` blocks to handle various specific exception types sequentially.
+This directory demonstrates how to handle multiple types of exceptions using a single `try` block followed by specialized `catch` blocks.
+
+* **Common Causes:** Executing complex code blocks where different statements can trigger distinct runtime errors.
+
+* **Example Use Case:** Processing user input strings, parsing them to numbers, and performing arithmetic computations.
 
 ## 📁 nullpointer_exception
-Focuses on errors that occur when an application attempts to use a `null` reference where an object instance is required, such as invoking a method or accessing a field on a null object.
+`NullPointerException` is thrown when an application attempts to use a `null` reference where an object is required.
+
+* **Common Causes:** Invoking instance methods, accessing fields, or checking the length of an object reference that has not been initialized (`null`).
+
+* **Example Use Case:** Processing uninitialized string variables or missing object properties returned from a database query.
 
 ## 📁 numberformat_exception
-Covers exceptions thrown when an application attempts to parse or convert a string into a numeric type, but the string does not conform to the expected format.
+`NumberFormatException` is thrown when an application attempts to convert a string into one of the numeric types, but the string does not have the appropriate format.
+
+* **Common Causes:** Parsing strings containing letters, symbols, or incorrect formatting (e.g., `Integer.parseInt("abc")`).
+
+* **Example Use Case:** Converting user input from text fields or configuration files into numeric values (like IDs or ages).
