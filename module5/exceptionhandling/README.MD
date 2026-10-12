@@ -1,5 +1,3 @@
-## Quick Comparison
-
 | Feature | Checked Exceptions | Unchecked Exceptions |
 | --- | --- | --- |
 | **Parent Class** | `Exception` (excluding `RuntimeException`) | `RuntimeException` |
