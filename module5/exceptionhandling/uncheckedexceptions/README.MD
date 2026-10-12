@@ -15,7 +15,11 @@
 ---
 
 ## 📁 arithmetic_exception
-Contains examples of exceptions thrown when an exceptional arithmetic condition occurs, most commonly integer division by zero.
+ArithmeticException is thrown when an exceptional arithmetic condition has occurred.
+
+Common Causes: Dividing an integer by zero (/ 0) or performing an invalid modulo operation.
+
+Example Use Case: Calculating ratios or percentages where a dynamic denominator evaluates to zero.
 
 ## 📁arrayindexoutofbounds_exception
 Covers scenarios where an array is accessed with an illegal index—either a negative index or an index greater than or equal to the array's length.
