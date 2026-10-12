@@ -9,7 +9,7 @@
 ```
 ---
 
-## 1. 📁 IOException
+## 📁 IOException
 
 `IOException` is the base class for exceptions thrown while accessing information using streams, files, and directories. It represents general Input/Output failures.
 
@@ -17,7 +17,7 @@
 * **Example Use Case:** Reading data from a file or network socket.
 ---
 
-## 2. 📁 SQLException
+## 📁 SQLException
 
 `SQLException` provides information on database access errors or other errors related to database connectivity and SQL statement execution.
 
@@ -26,7 +26,7 @@
 
 ---
 
-## 3. 📁 FileNotFoundException
+## 📁 FileNotFoundException
 
 `FileNotFoundException` is a subclass of `IOException`. It is thrown when an attempt to open the file denoted by a specified pathname has failed (i.e., the file does not exist at the given path).
 
