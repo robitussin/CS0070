@@ -1,8 +1,7 @@
----
 ```
 ## 📂 Folder Structure
 
-```text
+```
 ├── IOException/           # Handling input/output stream errors
 ├── SQLException/          # Handling database access and connectivity errors
 └── FileNotFoundException/ # Handling missing file scenarios (subclass of IOException)
@@ -36,12 +35,4 @@
 
 ---
 
-## Best Practices for Checked Exceptions
 
-1. **Don't Swallow Exceptions:** Avoid empty `catch` blocks (`catch (Exception e) {}`), as they hide bugs and make debugging difficult. Always log or handle the error appropriately.
-2. **Use Try-With-Resources:** For classes implementing `AutoCloseable` (like `BufferedReader`, `Connection`, or `Scanner`), use try-with-resources to ensure system resources are closed automatically.
-3. **Catch Specific Exceptions First:** If catching multiple exceptions, order your `catch` blocks from the most specific subclass (e.g., `FileNotFoundException`) to the broader superclass (e.g., `IOException`).
-
-```
-
-```
