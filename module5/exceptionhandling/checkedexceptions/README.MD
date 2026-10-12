@@ -1,5 +1,5 @@
 
-## 📂 Folder Structure
+## Folder Structure
 
 ```
 ├── IOException/           # Handling input/output stream errors
