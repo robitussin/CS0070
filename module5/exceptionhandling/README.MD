@@ -9,7 +9,7 @@
 
 ---
 
-## Checked Exceptions
+## 📁 Checked Exceptions
 
 Checked exceptions are checked by the compiler at **compile-time**. If a method throws a checked exception, it **must** either handle it using a `try-catch` block or declare it in its signature using the `throws` keyword. Otherwise, the code will fail to compile.
 
@@ -17,7 +17,7 @@ Checked exceptions are checked by the compiler at **compile-time**. If a method 
 * **Common Examples:** `IOException`, `SQLException`, `ClassNotFoundException`.
 ---
 
-## Unchecked Exceptions
+## 📁 Unchecked Exceptions
 
 Unchecked exceptions are not checked at compile-time; instead, they occur at **runtime**. They inherit from `RuntimeException`. The compiler does not force you to catch or declare these exceptions.
 
