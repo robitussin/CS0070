@@ -1,4 +1,4 @@
-Here is a clear, well-structured `README.md` for your GitHub repository. It breaks down checked and unchecked exceptions in Java with definitions, code examples, and a quick-reference comparison table so readers can easily distinguish between them.
+
 
 ---
 
@@ -19,7 +19,7 @@ Welcome to this repository! This project provides a clear, practical guide and c
 
 ---
 
-## 🔍 Quick Comparison
+## Quick Comparison
 
 | Feature | Checked Exceptions | Unchecked Exceptions |
 | --- | --- | --- |
@@ -30,7 +30,7 @@ Welcome to this repository! This project provides a clear, practical guide and c
 
 ---
 
-## 1. 📁 Checked Exceptions
+## Checked Exceptions
 
 Checked exceptions are checked by the compiler at **compile-time**. If a method throws a checked exception, it **must** either handle it using a `try-catch` block or declare it in its signature using the `throws` keyword. Otherwise, the code will fail to compile.
 
@@ -59,7 +59,7 @@ public class CheckedExceptionExample {
 
 ---
 
-## 2. 📁 Unchecked Exceptions
+## Unchecked Exceptions
 
 Unchecked exceptions are not checked at compile-time; instead, they occur at **runtime**. They inherit from `RuntimeException`. The compiler does not force you to catch or declare these exceptions.
 
@@ -81,16 +81,12 @@ public class UncheckedExceptionExample {
 
 ---
 
-## 💡 Best Practices
+## Best Practices
 
 * **Use Checked Exceptions** for recoverable conditions where the calling code can take corrective action.
 * **Use Unchecked Exceptions** for programming errors, invalid arguments, or invariant violations that indicate a bug in the code.
 * **Avoid overusing `throws Exception**` on checked exceptions, as it defeats the purpose of compile-time safety.
 
-## 🤝 Contributing
 
-Feel free to fork this repository, open issues, or submit pull requests if you'd like to add more examples or improve the documentation!
-
-```
 
 ```
