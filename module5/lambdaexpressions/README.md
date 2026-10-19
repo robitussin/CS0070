@@ -1,6 +1,6 @@
 ## What is a Lambda Expression?
 
-Think of a lambda expression as an **anonymous function**—a method without a declaration name that you can pass around as if it were a variable.
+A lambda expression is an **anonymous function**—a method without a declaration name that you can pass around as if it were a variable.
 
 Before Java 8, if you wanted to pass behavior into a method (like sorting rules or event listeners), you had to write bulky **anonymous inner classes**. Lambdas strip away all that repetitive boilerplate code.
 
