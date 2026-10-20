@@ -1,3 +1,6 @@
+import java.util.Arrays;
+import java.util.List;
+
 public class App {
 
     public static void main(String[] args) {
@@ -17,6 +20,7 @@ public class App {
          * (arguments) -> {statement/s}
          */
 
+        // Example 1
         String name = "Bro";
         char symbol = '!';
 
@@ -32,6 +36,7 @@ public class App {
         myInterface.message(name, symbol);
         myInterface2.message(name, symbol);
 
+        // Example 2
         // Addition lambda
         MathOperation addition = (int a, int b) -> a + b;
 
